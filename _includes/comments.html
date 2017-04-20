@@ -8,9 +8,9 @@
 *  LEARN WHY DEFINING THESE VARIABLES IS IMPORTANT: https://disqus.com/admin/universalcode/#configuration-variables*/
 
 var disqus_config = function () {
-this.page.url = '{{ page.url }}';
-this.page.identifier = '{{ page.url }}';
-}
+this.page.url = '{{ page.url | absolute_url  }}';
+this.page.identifier = '{{ page.url | absolute_url }}';
+};
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = 'https://chrisglass.disqus.com/embed.js';
