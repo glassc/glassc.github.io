@@ -1,0 +1,9 @@
+---
+layout: post
+title: First
+---
+Hey everyone!
+
+I thought it was about time I started a blog, so here we go.  I plan to talk about current development ideas and ramblings with some personal outside of development bonafide experiences (I'm Canadian so expect at least one Hockey post).
+
+Check back soon for the first REAL post.
