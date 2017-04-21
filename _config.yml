@@ -18,7 +18,6 @@ author:
   url:               https://www.chrisglass.me
   email:             glassc@gmail.com
 
-# Custom vars
-version:             1.0.0
+exclude: [docker-compose.yml]
 
 gems: [jekyll-paginate]
